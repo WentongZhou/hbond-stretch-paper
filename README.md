@@ -98,3 +98,4 @@ identical to the original output when the source tree is present.
 
 The DM-EDA code is released under the MIT licence (`pyscf-dm-eda/LICENSE`). The licence for the scripts and data in
 this repository will be stated here by the author. Please cite the paper above when using these data.
+# hbond-stretch-paper
