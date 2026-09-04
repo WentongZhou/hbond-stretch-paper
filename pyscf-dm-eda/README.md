@@ -5,8 +5,6 @@
 项目直接使用 PySCF 的 AO 密度矩阵、重叠矩阵和 J/K 构造器计算能量分项，
 不调用或解析其他量化程序，也不依赖任何特定的网格生成、可视化或上层应用。
 
-完整公式、推导和代码对应关系见
-[MATHEMATICAL_PRINCIPLES.md](MATHEMATICAL_PRINCIPLES.md)。
 
 ## 功能概览
 
