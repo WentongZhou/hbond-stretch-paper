@@ -1,0 +1,150 @@
+diff --git a/src/pyscf_dm_eda/eda.py b/src/pyscf_dm_eda/eda.py
+index 7f2654b..cd0bb90 100644
+--- a/src/pyscf_dm_eda/eda.py
++++ b/src/pyscf_dm_eda/eda.py
+@@ -255,10 +255,30 @@ class SCFConfig:
+     solvent_eps: float | None = None
+     solvent_name: str | None = None
+     solvent_options: Mapping[str, Any] | None = None
++    # Electrostatic embedding: ``(coords_angstrom, charges)`` of external point
++    # charges felt by every SCF (supermolecule and fragments).  The
++    # decomposition keeps the fragment-fragment cross terms free of the
++    # embedding potential, while the frozen, Pauli and relaxed densities are
++    # evaluated with it, so closure and the frozen identity still hold exactly.
++    point_charges: Any = None
+ 
+     def __post_init__(self) -> None:
+         if not self.method.strip():
+             raise ValueError("SCF method/XC functional cannot be empty")
++        if self.point_charges is not None:
++            try:
++                coords, charges = self.point_charges
++                coords = np.asarray(coords, dtype=float).reshape(-1, 3)
++                charges = np.asarray(charges, dtype=float).reshape(-1)
++            except (TypeError, ValueError) as exc:
++                raise ValueError(
++                    "point_charges must be (coords_angstrom[n,3], charges[n])"
++                ) from exc
++            if len(coords) != len(charges):
++                raise ValueError("point_charges: one charge per coordinate is required")
++            object.__setattr__(self, "point_charges", (coords, charges))
++            if self.solvent is not None:
++                raise ValueError("point_charges cannot be combined with an implicit solvent")
+         for name in ("grid_level", "max_cycle", "verbose"):
+             value = getattr(self, name)
+             if isinstance(value, (bool, np.bool_)) or not isinstance(
+@@ -549,7 +569,14 @@ class PySCFEDA:
+         super_mol = super_state.mol
+         overlap = super_mol.intor_symmetric("int1e_ovlp")
+         kinetic = super_mol.intor_symmetric("int1e_kin")
++        # ``super_core``/``fragment_core`` include the embedding potential when
++        # point charges are present (they enter E0[P] for every density); the
++        # gas-phase cores below define the fragment-fragment cross terms.
+         super_core = np.asarray(super_state.mf.get_hcore(super_mol))
++        embedded = self.config.point_charges is not None
++        super_core_gas = (
++            np.asarray(scf.hf.get_hcore(super_mol)) if embedded else super_core
++        )
+ 
+         for state in fragment_states:
+             _assert_same_ao_space(super_mol, state.mol, overlap, kinetic, state.label)
+@@ -557,9 +584,14 @@ class PySCFEDA:
+         fragment_core = [
+             np.asarray(state.mf.get_hcore(state.mol)) for state in fragment_states
+         ]
+-        fragment_potential = [core - kinetic for core in fragment_core]
++        fragment_core_gas = (
++            [np.asarray(scf.hf.get_hcore(state.mol)) for state in fragment_states]
++            if embedded
++            else fragment_core
++        )
++        fragment_potential = [core - kinetic for core in fragment_core_gas]
+         core_partition_error = _max_abs(
+-            super_core - kinetic - np.sum(fragment_potential, axis=0)
++            super_core_gas - kinetic - np.sum(fragment_potential, axis=0)
+         )
+         if core_partition_error > self.config.validation_tol:
+             raise IncompatibleFragmentError(
+@@ -701,6 +733,9 @@ class PySCFEDA:
+             - exchange
+         )
+ 
++        n_point_charges = (
++            int(len(self.config.point_charges[1])) if embedded else 0
++        )
+         components = {
+             "Total Interaction energy": total_interaction,
+             "Electrostatic Interaction": electrostatic,
+@@ -759,6 +794,7 @@ class PySCFEDA:
+         diagnostics = {
+             "closure_error_hartree": closure_error,
+             "frozen_identity_error_hartree": frozen_identity_error,
++            "n_point_charges": n_point_charges,
+             "core_partition_max_abs": core_partition_error,
+             "ao_overlap_condition": float(np.linalg.cond(overlap)),
+             "electron_count_max_abs_error": electron_count_error,
+@@ -1371,6 +1407,11 @@ def _run_scf(
+ 
+     if config.density_fit:
+         mf = mf.density_fit(auxbasis=config.auxbasis)
++    if config.point_charges is not None:
++        from pyscf import qmmm
++
++        coords, charges = config.point_charges
++        mf = qmmm.mm_charge(mf, coords, charges, unit="Angstrom")
+     if config.solvent is not None:
+         # Attach the solvent after density fitting so the DF J/K builder stays
+         # the inner class (the order PySCF documents for ``mol.RKS().density_fit().PCM()``).
+diff --git a/tests/test_eda.py b/tests/test_eda.py
+index cce9961..39dfa34 100644
+--- a/tests/test_eda.py
++++ b/tests/test_eda.py
+@@ -764,3 +764,48 @@ class PySCFEDATest(unittest.TestCase):
+ 
+ if __name__ == "__main__":
+     unittest.main()
++
++
++class PointChargeEmbeddingTest(unittest.TestCase):
++    """Electrostatic embedding keeps the algebraic identities and responds to the field."""
++
++    def setUp(self):
++        self.atoms = [
++            Atom("O", (0.0, 0.0, 0.0)), Atom("H", (0.96, 0.0, 0.0)), Atom("H", (-0.24, 0.93, 0.0)),
++            Atom("O", (2.9, 0.0, 0.0)), Atom("H", (3.2, -0.5, 0.76)), Atom("H", (3.2, -0.5, -0.76)),
++        ]
++        self.fragments = [FragmentSpec((0, 1, 2), 0, 0, "donor"), FragmentSpec((3, 4, 5), 0, 0, "acceptor")]
++        self.charges = ([(1.5, 3.5, 0.5), (1.5, 3.9, 0.5), (1.5, -3.2, 0.2)], [-0.8, 0.4, 0.4])
++
++    def test_closure_and_frozen_identity_hold_with_point_charges(self):
++        result = PySCFEDA(
++            self.atoms, self.fragments,
++            SCFConfig(method="hf", basis="sto-3g", conv_tol=1e-11, point_charges=self.charges),
++        ).run()
++        self.assertEqual(result.diagnostics["n_point_charges"], 3)
++        self.assertLess(abs(result.diagnostics["closure_error_hartree"]), 1e-10)
++        self.assertLess(abs(result.diagnostics["frozen_identity_error_hartree"]), 1e-10)
++        self.assertLess(result.diagnostics["core_partition_max_abs"], 1e-10)
++
++    def test_field_changes_the_interaction_but_not_the_gas_phase_limit(self):
++        gas = PySCFEDA(self.atoms, self.fragments, SCFConfig(method="hf", basis="sto-3g", conv_tol=1e-11)).run()
++        far = PySCFEDA(
++            self.atoms, self.fragments,
++            SCFConfig(method="hf", basis="sto-3g", conv_tol=1e-11,
++                      point_charges=([(500.0, 0.0, 0.0)], [1.0])),
++        ).run()
++        near = PySCFEDA(
++            self.atoms, self.fragments,
++            SCFConfig(method="hf", basis="sto-3g", conv_tol=1e-11, point_charges=self.charges),
++        ).run()
++        e_gas = gas.components("hartree")["Total Interaction energy"]
++        e_far = far.components("hartree")["Total Interaction energy"]
++        e_near = near.components("hartree")["Total Interaction energy"]
++        self.assertAlmostEqual(e_gas, e_far, places=6)
++        self.assertGreater(abs(e_near - e_gas), 1e-5)
++
++    def test_point_charges_are_validated(self):
++        with self.assertRaisesRegex(ValueError, "one charge per coordinate"):
++            SCFConfig(method="hf", point_charges=([(0.0, 0.0, 0.0)], [1.0, 2.0]))
++        with self.assertRaisesRegex(ValueError, "implicit solvent"):
++            SCFConfig(method="hf", solvent="pcm", point_charges=([(0.0, 0.0, 0.0)], [1.0]))

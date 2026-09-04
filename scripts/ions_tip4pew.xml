@@ -1,0 +1,43 @@
+<ForceField>
+ <AtomTypes>
+  <Type name="h3o-O" class="OH3" element="O" mass="15.99943"/>
+  <Type name="h3o-H" class="HO3" element="H" mass="1.007947"/>
+  <Type name="ohm-O" class="OHM" element="O" mass="15.99943"/>
+  <Type name="ohm-H" class="HOM" element="H" mass="1.007947"/>
+  <Type name="na-ion" class="Na" element="Na" mass="22.98977"/>
+  <Type name="cl-ion" class="Cl" element="Cl" mass="35.453"/>
+ </AtomTypes>
+ <Residues>
+  <Residue name="H3O">
+   <Atom name="O" type="h3o-O" charge="-0.32"/>
+   <Atom name="H1" type="h3o-H" charge="0.44"/>
+   <Atom name="H2" type="h3o-H" charge="0.44"/>
+   <Atom name="H3" type="h3o-H" charge="0.44"/>
+   <Bond atomName1="O" atomName2="H1"/>
+   <Bond atomName1="O" atomName2="H2"/>
+   <Bond atomName1="O" atomName2="H3"/>
+  </Residue>
+  <Residue name="OHM">
+   <Atom name="O" type="ohm-O" charge="-1.32"/>
+   <Atom name="H" type="ohm-H" charge="0.32"/>
+   <Bond atomName1="O" atomName2="H"/>
+  </Residue>
+  <Residue name="NA"><Atom name="Na" type="na-ion" charge="1"/></Residue>
+  <Residue name="CL"><Atom name="Cl" type="cl-ion" charge="-1"/></Residue>
+ </Residues>
+ <HarmonicBondForce>
+  <Bond class1="OH3" class2="HO3" length="0.098" k="462750"/>
+  <Bond class1="OHM" class2="HOM" length="0.096" k="462750"/>
+ </HarmonicBondForce>
+ <HarmonicAngleForce>
+  <Angle class1="HO3" class2="OH3" class3="HO3" angle="1.948" k="836"/>
+ </HarmonicAngleForce>
+ <NonbondedForce coulomb14scale="0.833333" lj14scale="0.5">
+  <Atom type="h3o-O" charge="-0.32" sigma="0.316435" epsilon="0.680946"/>
+  <Atom type="h3o-H" charge="0.44" sigma="1" epsilon="0"/>
+  <Atom type="ohm-O" charge="-1.32" sigma="0.316435" epsilon="0.680946"/>
+  <Atom type="ohm-H" charge="0.32" sigma="1" epsilon="0"/>
+  <Atom type="na-ion" charge="1" sigma="0.2184" epsilon="0.7047"/>
+  <Atom type="cl-ion" charge="-1" sigma="0.4918" epsilon="0.04895"/>
+ </NonbondedForce>
+</ForceField>

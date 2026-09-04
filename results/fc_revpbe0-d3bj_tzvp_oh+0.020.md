@@ -1,0 +1,21 @@
+# Force-constant partition: revpbe0-d3bj_tzvp_oh+0.020
+
+R_min = 2.9599 Å, E_int = -5.258 kcal/mol, k_total = 20.126 kcal/mol/Å² = 13.98 N/m, ω(H2O) = 162.3 cm⁻¹, ω(D2O) = 154.0 cm⁻¹ (mass effect only)
+
+| component | X(R_min) kcal/mol | dX/dR kcal/mol/Å | k_X kcal/mol/Å² | k_X / k_total | cubic kcal/mol/Å³ |
+|---|---:|---:|---:|---:|---:|
+| Total | -5.258 | -0.001 | 20.126 | +1.000 | -95.23 |
+| Elec | -8.487 | 14.815 | -35.137 | -1.746 | 100.86 |
+| Exch | -9.596 | 29.826 | -91.798 | -4.561 | 283.74 |
+| Rep | 16.792 | -55.258 | 180.450 | +8.966 | -593.85 |
+| ExRep | 7.196 | -25.432 | 88.652 | +4.405 | -310.10 |
+| OrbRel | -2.532 | 8.095 | -28.374 | -1.410 | 102.40 |
+| Corr | -0.644 | 1.874 | -4.923 | -0.245 | 12.26 |
+| Disp | -0.791 | 0.647 | -0.092 | -0.005 | -0.65 |
+| CorrDisp | -1.435 | 2.521 | -5.015 | -0.249 | 11.61 |
+| Steric | 5.761 | -22.911 | 83.638 | +4.156 | -298.49 |
+
+Sum of primary slopes at R_min (should be ~0): -0.0006 kcal/mol/Å
+Sum of primary k minus k_total (closure): -1.79e-07 kcal/mol/Å²
+Electrons lost by the acceptor (acceptor → donor CT) at R_min: Mulliken {'value_e': 0.027669008953102068, 'slope_e_per_A': -0.03768884630988228}, IAO {'value_e': 0.04803222962276583, 'slope_e_per_A': -0.09199475078337989}
+Max |closure| over scan: 1.94e-12 Eh

@@ -1,0 +1,13 @@
+# oh: 110 waters, residues ['HOH', 'NA', 'OHM'], 333 real atoms, neutralized
+# equilibrated 60.0 ps in 278 s
+# snapshot 00 at 4.0 ps, L=14.885, E_pot=-55.22 kJ/mol/water, ion O..O_w: 2.46 2.60 2.65 2.68 2.69, 293 s
+# snapshot 01 at 8.0 ps, L=15.218, E_pot=-54.63 kJ/mol/water, ion O..O_w: 2.58 2.59 2.59 2.63 2.76, 308 s
+# snapshot 02 at 12.0 ps, L=14.951, E_pot=-55.99 kJ/mol/water, ion O..O_w: 2.51 2.55 2.66 2.68 2.70, 323 s
+# snapshot 03 at 16.0 ps, L=14.956, E_pot=-55.14 kJ/mol/water, ion O..O_w: 2.49 2.65 2.68 2.71 2.76, 339 s
+# snapshot 04 at 20.0 ps, L=14.730, E_pot=-56.05 kJ/mol/water, ion O..O_w: 2.56 2.63 2.67 2.70 2.70, 354 s
+# snapshot 05 at 24.0 ps, L=14.855, E_pot=-55.68 kJ/mol/water, ion O..O_w: 2.50 2.52 2.52 2.65 2.67, 369 s
+# snapshot 06 at 28.0 ps, L=14.993, E_pot=-54.80 kJ/mol/water, ion O..O_w: 2.50 2.55 2.58 2.60 2.63, 384 s
+# snapshot 07 at 32.0 ps, L=14.762, E_pot=-56.09 kJ/mol/water, ion O..O_w: 2.44 2.58 2.66 2.68 2.71, 399 s
+# snapshot 08 at 36.0 ps, L=14.935, E_pot=-56.35 kJ/mol/water, ion O..O_w: 2.52 2.61 2.66 2.74 2.75, 414 s
+# snapshot 09 at 40.0 ps, L=14.755, E_pot=-56.51 kJ/mol/water, ion O..O_w: 2.62 2.64 2.65 2.66 2.75, 429 s
+# wrote 10 snapshots to /mnt/c/Users/HUAWEI/Desktop/hbond-stretch-eda/geometries/liquid_oh

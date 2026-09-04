@@ -1,0 +1,19 @@
+# liquid_oh_04_0_embed: set=ionliquid R0=2.6598 moving=donor_water ct_label=acceptor_water 17 points, 0 done
+R= 2.360  Total=   3.5010  Elec= -23.2268  ExRep=  46.7319  OrbRel= -15.7052  CorrDisp=  -4.2989  CT(Mull)=+0.0835  CT(IAO)=+0.1308  closure=-3.6e-13  11.8s
+R= 2.410  Total=   1.2612  Elec= -20.7647  ExRep=  39.1064  OrbRel= -13.1450  CorrDisp=  -3.9354  CT(Mull)=+0.0747  CT(IAO)=+0.1205  closure=-3.7e-13  11.2s
+R= 2.460  Total=  -0.4896  Elec= -18.5891  ExRep=  32.7121  OrbRel= -11.0142  CorrDisp=  -3.5983  CT(Mull)=+0.0670  CT(IAO)=+0.1109  closure=-8.6e-13  11.2s
+R= 2.510  Total=  -1.8445  Elec= -16.6720  ExRep=  27.3545  OrbRel=  -9.2395  CorrDisp=  -3.2874  CT(Mull)=+0.0604  CT(IAO)=+0.1019  closure=8.2e-13  10.9s
+R= 2.560  Total=  -2.8793  Elec= -14.9857  ExRep=  22.8686  OrbRel=  -7.7600  CorrDisp=  -3.0022  CT(Mull)=+0.0547  CT(IAO)=+0.0935  closure=5.5e-13  11.5s
+R= 2.610  Total=  -3.6562  Elec= -13.5034  ExRep=  19.1146  OrbRel=  -6.5256  CorrDisp=  -2.7418  CT(Mull)=+0.0498  CT(IAO)=+0.0857  closure=5.1e-13  11.1s
+R= 2.660  Total=  -4.2257  Elec= -12.2003  ExRep=  15.9746  OrbRel=  -5.4946  CorrDisp=  -2.5054  CT(Mull)=+0.0457  CT(IAO)=+0.0784  closure=-8.2e-13  12.2s
+R= 2.710  Total=  -4.6287  Elec= -11.0535  ExRep=  13.3490  OrbRel=  -4.6328  CorrDisp=  -2.2914  CT(Mull)=+0.0422  CT(IAO)=+0.0717  closure=8.9e-14  11.7s
+R= 2.760  Total=  -4.8984  Elec= -10.0424  ExRep=  11.1541  OrbRel=  -3.9118  CorrDisp=  -2.0984  CT(Mull)=+0.0393  CT(IAO)=+0.0656  closure=1.5e-12  11.4s
+R= 2.810  Total=  -5.0617  Elec=  -9.1488  ExRep=   9.3196  OrbRel=  -3.3081  CorrDisp=  -1.9244  CT(Mull)=+0.0369  CT(IAO)=+0.0599  closure=8.6e-13  9.9s
+R= 2.860  Total=  -5.1401  Elec=  -8.3566  ExRep=   7.7866  OrbRel=  -2.8024  CorrDisp=  -1.7677  CT(Mull)=+0.0348  CT(IAO)=+0.0547  closure=9.6e-14  10.9s
+R= 2.910  Total=  -5.1510  Elec=  -7.6519  ExRep=   6.5058  OrbRel=  -2.3784  CorrDisp=  -1.6265  CT(Mull)=+0.0331  CT(IAO)=+0.0498  closure=2.8e-13  11.0s
+R= 2.960  Total=  -5.1085  Elec=  -7.0227  ExRep=   5.4359  OrbRel=  -2.0227  CorrDisp=  -1.4989  CT(Mull)=+0.0316  CT(IAO)=+0.0454  closure=-1.2e-12  10.6s
+R= 3.010  Total=  -5.0240  Elec=  -6.4588  ExRep=   4.5424  OrbRel=  -1.7241  CorrDisp=  -1.3835  CT(Mull)=+0.0302  CT(IAO)=+0.0414  closure=-3.8e-13  10.7s
+R= 3.060  Total=  -4.9067  Elec=  -5.9512  ExRep=   3.7963  OrbRel=  -1.4731  CorrDisp=  -1.2787  CT(Mull)=+0.0290  CT(IAO)=+0.0377  closure=8.0e-13  11.2s
+R= 3.110  Total=  -4.7642  Elec=  -5.4925  ExRep=   3.1734  OrbRel=  -1.2618  CorrDisp=  -1.1833  CT(Mull)=+0.0278  CT(IAO)=+0.0343  closure=-7.4e-13  11.2s
+R= 3.160  Total=  -4.6025  Elec=  -5.0760  ExRep=   2.6535  OrbRel=  -1.0839  CorrDisp=  -1.0962  CT(Mull)=+0.0266  CT(IAO)=+0.0311  closure=-6.7e-13  10.3s
+# wrote /home/flyingchow/hbond-stretch-eda/results/scan_liquid_oh_04_0_embed.json

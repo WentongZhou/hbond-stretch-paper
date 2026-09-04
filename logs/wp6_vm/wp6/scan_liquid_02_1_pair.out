@@ -1,0 +1,6 @@
+# liquid_02_1_pair: set=liquid R0=2.8207 moving=acceptor_water ct_label=acceptor_water 17 points, 13 done
+R= 3.171  Total=  -3.4839  Elec=  -4.1878  ExRep=   2.3184  OrbRel=  -0.9745  CorrDisp=  -0.6399  CT(Mull)=+0.0089  CT(IAO)=+0.0200  closure=3.6e-13  8.9s
+R= 3.221  Total=  -3.4180  Elec=  -3.8967  ExRep=   1.9235  OrbRel=  -0.8621  CorrDisp=  -0.5826  CT(Mull)=+0.0085  CT(IAO)=+0.0179  closure=-1.4e-12  9.4s
+R= 3.271  Total=  -3.3376  Elec=  -3.6350  ExRep=   1.5952  OrbRel=  -0.7666  CorrDisp=  -0.5312  CT(Mull)=+0.0081  CT(IAO)=+0.0161  closure=9.3e-13  9.4s
+R= 3.321  Total=  -3.2467  Elec=  -3.3989  ExRep=   1.3225  OrbRel=  -0.6853  CorrDisp=  -0.4849  CT(Mull)=+0.0077  CT(IAO)=+0.0144  closure=3.3e-13  9.2s
+# wrote /home/flyingchow/hbond-stretch-eda/results/scan_liquid_02_1_pair.json

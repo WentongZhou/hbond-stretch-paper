@@ -1,0 +1,8 @@
+R=2.700  saddle at 0.580 Å from H_b: rho_final=0.04082 rho_0=0.03921 (96.1%)  dPauli=-0.00511 (-12.5%)  drelax=+0.00672 (+16.5%)  Total=-4.026
+R=2.800  saddle at 0.627 Å from H_b: rho_final=0.03186 rho_0=0.03081 (96.7%)  dPauli=-0.00355 (-11.2%)  drelax=+0.00461 (+14.5%)  Total=-4.739
+R=2.900  saddle at 0.673 Å from H_b: rho_final=0.02496 rho_0=0.02432 (97.4%)  dPauli=-0.00248 (-9.9%)  drelax=+0.00312 (+12.5%)  Total=-5.041
+R=3.000  saddle at 0.714 Å from H_b: rho_final=0.01967 rho_0=0.01932 (98.2%)  dPauli=-0.00173 (-8.8%)  drelax=+0.00208 (+10.6%)  Total=-5.078
+R=3.100  saddle at 0.759 Å from H_b: rho_final=0.01559 rho_0=0.01540 (98.8%)  dPauli=-0.00121 (-7.8%)  drelax=+0.00140 (+9.0%)  Total=-4.946
+R=3.200  saddle at 0.804 Å from H_b: rho_final=0.01244 rho_0=0.01233 (99.2%)  dPauli=-0.00085 (-6.8%)  drelax=+0.00095 (+7.6%)  Total=-4.711
+# wrote /mnt/c/Users/HUAWEI/Desktop/hbond-stretch-eda/results/density_revpbe0-d3bj_tzvp.json
+# figures in /mnt/c/Users/HUAWEI/Desktop/hbond-stretch-eda/figures

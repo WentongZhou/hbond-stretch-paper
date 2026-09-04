@@ -1,0 +1,7 @@
+# liquid_h3o_03_0_full: set=ionliquid R0=2.8878 moving=water_2nd ct_label=water_2nd 13 points, 8 done
+R= 2.988  Total= -18.5288  Elec= -32.8661  ExRep=  32.6853  OrbRel= -12.3612  CorrDisp=  -5.9867  CT(Mull)=-0.0525  CT(IAO)=-0.0825  closure=3.1e-13  192.4s
+R= 3.038  Total= -17.9039  Elec= -33.5878  ExRep=  34.6525  OrbRel= -12.9066  CorrDisp=  -6.0621  CT(Mull)=-0.0546  CT(IAO)=-0.0904  closure=2.1e-13  180.3s
+R= 3.088  Total= -17.1525  Elec= -34.3662  ExRep=  36.8677  OrbRel= -13.5019  CorrDisp=  -6.1522  CT(Mull)=-0.0567  CT(IAO)=-0.0980  closure=-8.5e-13  185.6s
+R= 3.138  Total= -16.2770  Elec= -35.1888  ExRep=  39.3055  OrbRel= -14.1382  CorrDisp=  -6.2554  CT(Mull)=-0.0588  CT(IAO)=-0.1053  closure=-3.3e-14  182.5s
+R= 3.188  Total= -15.2800  Elec= -36.0431  ExRep=  41.9398  OrbRel= -14.8065  CorrDisp=  -6.3703  CT(Mull)=-0.0609  CT(IAO)=-0.1123  closure=-8.8e-13  182.6s
+# wrote /mnt/c/Users/HUAWEI/Desktop/hbond-stretch-eda/results/scan_liquid_h3o_03_0_full.json

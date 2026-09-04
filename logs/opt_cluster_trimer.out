@@ -1,0 +1,23 @@
+# trimer: 9 atoms, charge 0, guess written to /mnt/c/Users/HUAWEI/Desktop/hbond-stretch-eda/geometries/cluster_trimer_guess.xyz
+# initial H-bonds:
+#   O0-H1...O3  R=2.928  angle=172.6
+#   O6-H8...O0  R=2.850  angle=180.0
+# minimum non-HH interatomic distance: 0.959 A
+# def2-svp: E=-228.99604497 Eh after 25 steps, fmax=0.0299 eV/A, 244 s
+# def2-tzvp: E=-229.29151606 Eh after 214 steps, fmax=0.0020 eV/A, 3748 s
+# final H-bonds:
+#   O0-H1...O3  R=2.846  r(OH)=0.9710  angle=174.4
+#   O6-H8...O0  R=2.862  r(OH)=0.9707  angle=178.5
+{
+  "acid_control": {
+    "R_OO": 2.8462360416761294,
+    "r_OH_bonded": 0.9710127589256301,
+    "angle_OHO": 174.44260411950043
+  },
+  "base_control": {
+    "R_OO": 2.861641200594914,
+    "r_OH_bonded": 0.9586628285856064,
+    "angle_OHO": 58.22816284954883
+  }
+}
+# wrote /mnt/c/Users/HUAWEI/Desktop/hbond-stretch-eda/geometries/cluster_trimer_revpbe0-d3bj_tzvp.xyz

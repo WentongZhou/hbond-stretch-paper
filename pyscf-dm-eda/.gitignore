@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+build/
+dist/
+
+# Calculation outputs
+*.lock
+*_eda.json
+*_pyscf.xyz
+energy_values_pyscf_*.json
+energy_values_pyscf_*.tsv

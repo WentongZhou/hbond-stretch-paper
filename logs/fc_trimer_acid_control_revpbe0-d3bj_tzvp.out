@@ -1,0 +1,22 @@
+# Force-constant partition: trimer_acid_control_revpbe0-d3bj_tzvp
+
+R_min = 2.8750 Å, E_int = -7.008 kcal/mol, k_total = 26.071 kcal/mol/Å² = 18.11 N/m, ω(H2O) = 184.8 cm⁻¹, ω(D2O) = 175.2 cm⁻¹ (mass effect only)
+
+| component | X(R_min) kcal/mol | dX/dR kcal/mol/Å | k_X kcal/mol/Å² | k_X / k_total | cubic kcal/mol/Å³ |
+|---|---:|---:|---:|---:|---:|
+| Total | -7.008 | -0.000 | 26.071 | +1.000 | -126.26 |
+| Elec | -10.709 | 17.672 | -41.335 | -1.585 | 119.71 |
+| Exch | -11.121 | 35.139 | -110.039 | -4.221 | 344.07 |
+| Rep | 19.879 | -66.372 | 220.028 | +8.440 | -733.21 |
+| ExRep | 8.758 | -31.233 | 109.989 | +4.219 | -389.14 |
+| OrbRel | -3.291 | 10.481 | -36.332 | -1.394 | 129.62 |
+| Corr | -0.836 | 2.305 | -6.052 | -0.232 | 14.12 |
+| Disp | -0.930 | 0.774 | -0.198 | -0.008 | -0.56 |
+| CorrDisp | -1.766 | 3.080 | -6.250 | -0.240 | 13.56 |
+| Steric | 6.992 | -28.154 | 103.739 | +3.979 | -375.58 |
+
+Sum of primary slopes at R_min (should be ~0): -0.0001 kcal/mol/Å
+Sum of primary k minus k_total (closure): -3.57e-08 kcal/mol/Å²
+Electrons lost by fragment 'water_a' (acceptor of the target bond) at R_min: Mulliken {'value_e': 0.03153550842508103, 'slope_e_per_A': -0.04664091760278267}, IAO {'value_e': 0.05642045014724177, 'slope_e_per_A': -0.10632053193677107}
+Max |closure| over scan: 1.88e-12 Eh
+# figure: /mnt/c/Users/HUAWEI/Desktop/hbond-stretch-eda/figures/fc_trimer_acid_control_revpbe0-d3bj_tzvp.png

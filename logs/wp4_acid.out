@@ -1,0 +1,58 @@
+# waiting for results/cluster_acid_revpbe0-d3bj_tzvp.json
+# Thu Sep  3 08:40:28 CST 2026 optimization done, starting scans: acid
+# acid_revpbe0-d3bj_tzvp: set=acid R0=2.6684 moving=water2 ct_label=water2 31 points, 0 done
+R= 2.368  Total= -10.6129  Elec= -31.0734  ExRep=  46.2208  OrbRel= -21.5020  CorrDisp=  -4.2583  CT(Mull)=+0.1070  CT(IAO)=+0.1550  closure=1.1e-12  110.1s
+R= 2.418  Total= -12.2385  Elec= -28.5865  ExRep=  38.5822  OrbRel= -18.3203  CorrDisp=  -3.9140  CT(Mull)=+0.0952  CT(IAO)=+0.1430  closure=-5.9e-13  131.2s
+R= 2.468  Total= -13.4036  Elec= -26.3583  ExRep=  32.1845  OrbRel= -15.6431  CorrDisp=  -3.5868  CT(Mull)=+0.0848  CT(IAO)=+0.1317  closure=1.0e-12  106.1s
+R= 2.508  Total= -14.0683  Elec= -24.7482  ExRep=  27.8269  OrbRel= -13.8088  CorrDisp=  -3.3382  CT(Mull)=+0.0775  CT(IAO)=+0.1231  closure=8.7e-13  108.8s
+R= 2.518  Total= -14.2027  Elec= -24.3683  ExRep=  26.8315  OrbRel= -13.3880  CorrDisp=  -3.2780  CT(Mull)=+0.0758  CT(IAO)=+0.1210  closure=1.1e-12  66.2s
+R= 2.528  Total= -14.3257  Elec= -23.9969  ExRep=  25.8712  OrbRel= -12.9814  CorrDisp=  -3.2186  CT(Mull)=+0.0741  CT(IAO)=+0.1190  closure=1.1e-12  77.8s
+R= 2.548  Total= -14.5390  Elec= -23.2794  ExRep=  24.0508  OrbRel= -12.2084  CorrDisp=  -3.1021  CT(Mull)=+0.0709  CT(IAO)=+0.1150  closure=1.3e-12  65.8s
+R= 2.568  Total= -14.7125  Elec= -22.5944  ExRep=  22.3568  OrbRel= -11.4860  CorrDisp=  -2.9889  CT(Mull)=+0.0678  CT(IAO)=+0.1110  closure=9.1e-13  79.5s
+R= 2.588  Total= -14.8497  Elec= -21.9403  ExRep=  20.7804  OrbRel= -10.8108  CorrDisp=  -2.8790  CT(Mull)=+0.0649  CT(IAO)=+0.1072  closure=9.5e-13  64.7s
+R= 2.608  Total= -14.9540  Elec= -21.3158  ExRep=  19.3138  OrbRel= -10.1796  CorrDisp=  -2.7724  CT(Mull)=+0.0622  CT(IAO)=+0.1035  closure=1.8e-12  75.8s
+R= 2.618  Total= -14.9949  Elec= -21.0142  ExRep=  18.6192  OrbRel=  -9.8795  CorrDisp=  -2.7203  CT(Mull)=+0.0609  CT(IAO)=+0.1017  closure=4.1e-13  67.2s
+R= 2.628  Total= -15.0287  Elec= -20.7195  ExRep=  17.9493  OrbRel=  -9.5893  CorrDisp=  -2.6691  CT(Mull)=+0.0596  CT(IAO)=+0.0999  closure=4.0e-13  77.4s
+R= 2.648  Total= -15.0765  Elec= -20.1500  ExRep=  16.6800  OrbRel=  -9.0372  CorrDisp=  -2.5692  CT(Mull)=+0.0572  CT(IAO)=+0.0964  closure=2.5e-13  65.3s
+R= 2.668  Total= -15.1000  Elec= -19.6061  ExRep=  15.4994  OrbRel=  -8.5207  CorrDisp=  -2.4726  CT(Mull)=+0.0549  CT(IAO)=+0.0929  closure=6.8e-13  75.6s
+R= 2.688  Total= -15.1017  Elec= -19.0863  ExRep=  14.4013  OrbRel=  -8.0373  CorrDisp=  -2.3794  CT(Mull)=+0.0527  CT(IAO)=+0.0896  closure=4.3e-14  64.9s
+R= 2.708  Total= -15.0838  Elec= -18.5896  ExRep=  13.3802  OrbRel=  -7.5849  CorrDisp=  -2.2894  CT(Mull)=+0.0507  CT(IAO)=+0.0864  closure=-1.2e-12  76.9s
+R= 2.718  Total= -15.0681  Elec= -18.3495  ExRep=  12.8967  OrbRel=  -7.3697  CorrDisp=  -2.2457  CT(Mull)=+0.0497  CT(IAO)=+0.0848  closure=1.2e-13  65.3s
+R= 2.728  Total= -15.0482  Elec= -18.1146  ExRep=  12.4305  OrbRel=  -7.1614  CorrDisp=  -2.2027  CT(Mull)=+0.0487  CT(IAO)=+0.0833  closure=1.9e-13  75.4s
+R= 2.748  Total= -14.9968  Elec= -17.6603  ExRep=  11.5475  OrbRel=  -6.7649  CorrDisp=  -2.1192  CT(Mull)=+0.0469  CT(IAO)=+0.0803  closure=-2.8e-13  64.6s
+R= 2.768  Total= -14.9312  Elec= -17.2254  ExRep=  10.7264  OrbRel=  -6.3935  CorrDisp=  -2.0387  CT(Mull)=+0.0452  CT(IAO)=+0.0773  closure=1.3e-12  74.9s
+R= 2.788  Total= -14.8530  Elec= -16.8090  ExRep=   9.9631  OrbRel=  -6.0457  CorrDisp=  -1.9613  CT(Mull)=+0.0436  CT(IAO)=+0.0745  closure=1.2e-12  65.5s
+R= 2.808  Total= -14.7635  Elec= -16.4101  ExRep=   9.2534  OrbRel=  -5.7198  CorrDisp=  -1.8869  CT(Mull)=+0.0421  CT(IAO)=+0.0717  closure=2.0e-12  75.5s
+R= 2.818  Total= -14.7149  Elec= -16.2169  ExRep=   8.9175  OrbRel=  -5.5647  CorrDisp=  -1.8508  CT(Mull)=+0.0414  CT(IAO)=+0.0704  closure=-1.6e-13  64.6s
+R= 2.828  Total= -14.6640  Elec= -16.0277  ExRep=   8.5936  OrbRel=  -5.4146  CorrDisp=  -1.8153  CT(Mull)=+0.0407  CT(IAO)=+0.0691  closure=1.2e-12  75.5s
+R= 2.868  Total= -14.4393  Elec= -15.3086  ExRep=   7.4102  OrbRel=  -4.8605  CorrDisp=  -1.6803  CT(Mull)=+0.0381  CT(IAO)=+0.0640  closure=-4.2e-14  65.2s
+R= 2.918  Total= -14.1202  Elec= -14.4875  ExRep=   6.1549  OrbRel=  -4.2617  CorrDisp=  -1.5259  CT(Mull)=+0.0353  CT(IAO)=+0.0581  closure=-2.9e-13  75.9s
+R= 2.968  Total= -13.7702  Elec= -13.7420  ExRep=   5.1098  OrbRel=  -3.7520  CorrDisp=  -1.3860  CT(Mull)=+0.0328  CT(IAO)=+0.0528  closure=-7.9e-13  64.2s
+R= 3.018  Total= -13.3992  Elec= -13.0626  ExRep=   4.2402  OrbRel=  -3.3179  CorrDisp=  -1.2589  CT(Mull)=+0.0306  CT(IAO)=+0.0478  closure=4.3e-13  75.8s
+R= 3.068  Total= -13.0148  Elec= -12.4411  ExRep=   3.5171  OrbRel=  -2.9475  CorrDisp=  -1.1433  CT(Mull)=+0.0287  CT(IAO)=+0.0433  closure=-9.5e-13  62.0s
+R= 3.118  Total= -12.6234  Elec= -11.8704  ExRep=   2.9160  OrbRel=  -2.6311  CorrDisp=  -1.0380  CT(Mull)=+0.0269  CT(IAO)=+0.0392  closure=1.2e-12  74.6s
+R= 3.168  Total= -12.2299  Elec= -11.3446  ExRep=   2.4167  OrbRel=  -2.3601  CorrDisp=  -0.9418  CT(Mull)=+0.0253  CT(IAO)=+0.0354  closure=-1.9e-13  65.6s
+# wrote /mnt/c/Users/HUAWEI/Desktop/hbond-stretch-eda/results/scan_acid_revpbe0-d3bj_tzvp.json
+# Force-constant partition: acid_revpbe0-d3bj_tzvp
+
+R_min = 2.6799 Å, E_int = -15.104 kcal/mol, k_total = 51.339 kcal/mol/Å² = 35.67 N/m, ω(H2O) = 259.3 cm⁻¹, ω(D2O) = 245.9 cm⁻¹ (mass effect only)
+
+| component | X(R_min) kcal/mol | dX/dR kcal/mol/Å | k_X kcal/mol/Å² | k_X / k_total | cubic kcal/mol/Å³ |
+|---|---:|---:|---:|---:|---:|
+| Total | -15.104 | 0.000 | 51.339 | +1.000 | -278.28 |
+| Elec | -19.305 | 25.898 | -58.760 | -1.145 | 154.16 |
+| Exch | -16.649 | 55.291 | -179.811 | -3.502 | 565.19 |
+| Rep | 31.509 | -109.882 | 377.824 | +7.359 | -1283.50 |
+| ExRep | 14.860 | -54.590 | 198.013 | +3.857 | -718.31 |
+| OrbRel | -8.240 | 24.042 | -79.660 | -1.552 | 281.78 |
+| Corr | -1.377 | 3.845 | -8.128 | -0.158 | 4.95 |
+| Disp | -1.041 | 0.805 | -0.126 | -0.002 | -0.86 |
+| CorrDisp | -2.419 | 4.650 | -8.254 | -0.161 | 4.09 |
+| Steric | 12.441 | -49.940 | 189.759 | +3.696 | -714.23 |
+
+Sum of primary slopes at R_min (should be ~0): 0.0000 kcal/mol/Å
+Sum of primary k minus k_total (closure): -2.24e-07 kcal/mol/Å²
+Electrons lost by fragment 'water2' (acceptor of the target bond) at R_min: Mulliken {'value_e': 0.05360185434905522, 'slope_e_per_A': -0.10793847200008742}, IAO {'value_e': 0.09103237742802939, 'slope_e_per_A': -0.16533902128700825}
+Max |closure| over scan: 1.96e-12 Eh
+# figure: /mnt/c/Users/HUAWEI/Desktop/hbond-stretch-eda/figures/fc_acid_revpbe0-d3bj_tzvp.png
+# Thu Sep  3 09:19:51 CST 2026 all done for acid

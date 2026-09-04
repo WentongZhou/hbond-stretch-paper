@@ -1,0 +1,137 @@
+{
+  "tag": "revpbe0-d3bj_tzvp",
+  "xc": "revpbe0",
+  "dispersion": "d3bj",
+  "basis": "def2-tzvp",
+  "grid_level": 4,
+  "xyz": "/mnt/c/Users/HUAWEI/Desktop/hbond-stretch-eda/geometries/cluster_trimer_revpbe0-d3bj_tzvp.xyz",
+  "symbols": [
+    "O",
+    "H",
+    "H",
+    "O",
+    "H",
+    "H",
+    "O",
+    "H",
+    "H"
+  ],
+  "optimization": [
+    {
+      "basis": "def2-svp",
+      "energy_hartree": -228.99604497134925,
+      "bfgs_steps": 25,
+      "fmax_final_eV_A": 0.02985080145792827,
+      "wall_seconds": 243.95301365852356
+    },
+    {
+      "basis": "def2-tzvp",
+      "energy_hartree": -229.29151605853914,
+      "bfgs_steps": 214,
+      "fmax_final_eV_A": 0.0019828438057093336,
+      "wall_seconds": 3748.450470685959
+    }
+  ],
+  "hbonds": [
+    {
+      "donor_O": 0,
+      "H": 1,
+      "acceptor_O": 3,
+      "R_OO": 2.8462360416761294,
+      "r_OH": 0.9710127589256301,
+      "angle_OHO": 174.44260411950043
+    },
+    {
+      "donor_O": 6,
+      "H": 8,
+      "acceptor_O": 0,
+      "R_OO": 2.861641200594914,
+      "r_OH": 0.9706522604325469,
+      "angle_OHO": 178.52998480574985
+    }
+  ],
+  "targets": {
+    "acid_control": {
+      "R_OO": 2.846236038134837,
+      "r_OH_bonded": 0.9710127588367833,
+      "angle_OHO": 174.44260426425876
+    },
+    "base_control": {
+      "R_OO": 2.8616412018896447,
+      "r_OH_bonded": 0.9706522608461438,
+      "angle_OHO": 178.52998456078143
+    }
+  },
+  "system": "trimer",
+  "charge": 0,
+  "description": "open chain W0 -> Wd -> Wa built on the optimized dimer; O0-Od-Oa angle held fixed",
+  "angle_constraint": [
+    6,
+    0,
+    3
+  ],
+  "fragment_sets": {
+    "acid_control": {
+      "fragments": [
+        {
+          "label": "chain",
+          "atoms": [
+            0,
+            1,
+            2,
+            6,
+            7,
+            8
+          ],
+          "charge": 0
+        },
+        {
+          "label": "water_a",
+          "atoms": [
+            3,
+            4,
+            5
+          ],
+          "charge": 0
+        }
+      ],
+      "moving": "water_a",
+      "donor_O": 0,
+      "bonded_H": 1,
+      "acceptor_O": 3,
+      "ct_label": "water_a",
+      "description": "Wd => Wa with W0 donating to Wd (acceptor of the target bond moves)"
+    },
+    "base_control": {
+      "fragments": [
+        {
+          "label": "water_0",
+          "atoms": [
+            6,
+            7,
+            8
+          ],
+          "charge": 0
+        },
+        {
+          "label": "chain",
+          "atoms": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "charge": 0
+        }
+      ],
+      "moving": "water_0",
+      "donor_O": 6,
+      "bonded_H": 8,
+      "acceptor_O": 0,
+      "ct_label": "chain",
+      "description": "W0 => Wd with Wd donating on to Wa (donor of the target bond moves)"
+    }
+  }
+}

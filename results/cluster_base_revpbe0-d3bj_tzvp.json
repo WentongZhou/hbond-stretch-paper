@@ -1,0 +1,179 @@
+{
+  "tag": "revpbe0-d3bj_tzvp",
+  "xc": "revpbe0",
+  "dispersion": "d3bj",
+  "basis": "def2-tzvp",
+  "grid_level": 4,
+  "xyz": "/mnt/c/Users/HUAWEI/Desktop/hbond-stretch-eda/geometries/cluster_base_revpbe0-d3bj_tzvp.xyz",
+  "symbols": [
+    "O",
+    "H",
+    "O",
+    "H",
+    "H",
+    "O",
+    "H",
+    "H",
+    "O",
+    "H",
+    "H",
+    "O",
+    "H",
+    "H",
+    "O",
+    "H",
+    "H"
+  ],
+  "optimization": [
+    {
+      "basis": "def2-svp",
+      "energy_hartree": -457.4833922481139,
+      "bfgs_steps": 147,
+      "fmax_final_eV_A": 0.028132971824855253,
+      "wall_seconds": 3317.902692556381
+    },
+    {
+      "basis": "def2-tzvp",
+      "energy_hartree": -458.0636185738217,
+      "bfgs_steps": 201,
+      "fmax_final_eV_A": 0.0030177295833987735,
+      "wall_seconds": 8118.738280534744
+    }
+  ],
+  "hbonds": [
+    {
+      "donor_O": 2,
+      "H": 3,
+      "acceptor_O": 5,
+      "R_OO": 3.0462069584927303,
+      "r_OH": 0.9639406933754284,
+      "angle_OHO": 129.76120376420914
+    },
+    {
+      "donor_O": 2,
+      "H": 4,
+      "acceptor_O": 0,
+      "R_OO": 2.603410100734913,
+      "r_OH": 1.0105150083181769,
+      "angle_OHO": 165.6669948843617
+    },
+    {
+      "donor_O": 5,
+      "H": 6,
+      "acceptor_O": 8,
+      "R_OO": 3.088460786780369,
+      "r_OH": 0.9637079661435541,
+      "angle_OHO": 130.62683182510554
+    },
+    {
+      "donor_O": 5,
+      "H": 7,
+      "acceptor_O": 0,
+      "R_OO": 2.724611848396367,
+      "r_OH": 0.9887518856079204,
+      "angle_OHO": 160.66124684724895
+    },
+    {
+      "donor_O": 8,
+      "H": 9,
+      "acceptor_O": 11,
+      "R_OO": 3.0766888910222994,
+      "r_OH": 0.9638076638138444,
+      "angle_OHO": 132.1267522987818
+    },
+    {
+      "donor_O": 8,
+      "H": 10,
+      "acceptor_O": 0,
+      "R_OO": 2.727913359399207,
+      "r_OH": 0.987060309860978,
+      "angle_OHO": 159.52531772345557
+    },
+    {
+      "donor_O": 11,
+      "H": 12,
+      "acceptor_O": 2,
+      "R_OO": 3.18199471947694,
+      "r_OH": 0.9621105299314359,
+      "angle_OHO": 126.53050000293103
+    },
+    {
+      "donor_O": 11,
+      "H": 13,
+      "acceptor_O": 0,
+      "R_OO": 2.709081834269448,
+      "r_OH": 0.9896932644835065,
+      "angle_OHO": 160.66034838252014
+    },
+    {
+      "donor_O": 14,
+      "H": 16,
+      "acceptor_O": 2,
+      "R_OO": 2.7688566429896935,
+      "r_OH": 0.9826451494420949,
+      "angle_OHO": 171.74211589969102
+    }
+  ],
+  "targets": {
+    "base": {
+      "R_OO": 2.7688566429896935,
+      "r_OH_bonded": 0.9826451494420949,
+      "angle_OHO": 171.74211589969102
+    }
+  },
+  "system": "base",
+  "charge": -1,
+  "description": "OH-(H2O)4 with one second-shell water donating to W1a; W2 held in the (O_ion, O_W1a, z) plane by an O0-O2-O14 angle and H1-O0-O2-O14 dihedral constraint so it cannot bridge to W1b/W1d",
+  "angle_constraint": [
+    0,
+    2,
+    14
+  ],
+  "dihedral_constraint": [
+    1,
+    0,
+    2,
+    14
+  ],
+  "fragment_sets": {
+    "base": {
+      "fragments": [
+        {
+          "label": "ion_shell",
+          "atoms": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "charge": -1
+        },
+        {
+          "label": "water2",
+          "atoms": [
+            14,
+            15,
+            16
+          ],
+          "charge": 0
+        }
+      ],
+      "moving": "water2",
+      "donor_O": 14,
+      "bonded_H": 16,
+      "acceptor_O": 2,
+      "ct_label": "ion_shell",
+      "description": "W2 => W1a, W1a donates to OH- (donor of the target bond moves)"
+    }
+  }
+}

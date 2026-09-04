@@ -1,0 +1,2 @@
+Thu Sep  3 14:27:48 CST 2026 tag=liquid_h3o set=ionliquid workers=2 threads=10 extra=[--density-fit] clusters: liquid_h3o_00_0 liquid_h3o_01_0 liquid_h3o_02_0 liquid_h3o_03_0 liquid_h3o_04_0 liquid_h3o_05_0 liquid_h3o_06_0 liquid_h3o_07_0 liquid_h3o_08_0 liquid_h3o_09_0
+Thu Sep  3 17:05:53 CST 2026 all workers finished

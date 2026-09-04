@@ -1,0 +1,28 @@
+# base: 17 atoms, charge -1, guess written to /mnt/c/Users/HUAWEI/Desktop/hbond-stretch-eda/geometries/cluster_base_guess.xyz
+# initial H-bonds:
+#   O2-H4...O0  R=2.650  angle=180.0
+#   O5-H7...O0  R=2.650  angle=180.0
+#   O8-H10...O0  R=2.650  angle=180.0
+#   O11-H13...O0  R=2.650  angle=180.0
+#   O14-H16...O2  R=2.850  angle=180.0
+# minimum non-HH interatomic distance: 0.965 A
+# def2-svp: E=-457.48339225 Eh after 147 steps, fmax=0.0281 eV/A, 3318 s
+# def2-tzvp: E=-458.06361857 Eh after 201 steps, fmax=0.0030 eV/A, 8119 s
+# final H-bonds:
+#   O2-H3...O5  R=3.046  r(OH)=0.9639  angle=129.8
+#   O2-H4...O0  R=2.603  r(OH)=1.0105  angle=165.7
+#   O5-H6...O8  R=3.088  r(OH)=0.9637  angle=130.6
+#   O5-H7...O0  R=2.725  r(OH)=0.9888  angle=160.7
+#   O8-H9...O11  R=3.077  r(OH)=0.9638  angle=132.1
+#   O8-H10...O0  R=2.728  r(OH)=0.9871  angle=159.5
+#   O11-H12...O2  R=3.182  r(OH)=0.9621  angle=126.5
+#   O11-H13...O0  R=2.709  r(OH)=0.9897  angle=160.7
+#   O14-H16...O2  R=2.769  r(OH)=0.9826  angle=171.7
+{
+  "base": {
+    "R_OO": 2.7688566429896935,
+    "r_OH_bonded": 0.9826451494420949,
+    "angle_OHO": 171.74211589969102
+  }
+}
+# wrote /mnt/c/Users/HUAWEI/Desktop/hbond-stretch-eda/geometries/cluster_base_revpbe0-d3bj_tzvp.xyz

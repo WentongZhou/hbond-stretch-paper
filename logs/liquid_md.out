@@ -1,0 +1,14 @@
+# 117 waters (tip4pew), box 15.50 A, 351 real atoms, density 0.940 g/cm3
+# equilibrated 60.0 ps in 212 s, E_pot=-47.96 kJ/mol per water
+# snapshot 00 at 4.0 ps, L=15.160 A, density=1.005, E_pot=-46.70 kJ/mol/water, 224 s
+# snapshot 01 at 8.0 ps, L=15.348 A, density=0.968, E_pot=-46.02 kJ/mol/water, 238 s
+# snapshot 02 at 12.0 ps, L=15.057 A, density=1.025, E_pot=-45.98 kJ/mol/water, 250 s
+# snapshot 03 at 16.0 ps, L=15.071 A, density=1.023, E_pot=-46.21 kJ/mol/water, 262 s
+# snapshot 04 at 20.0 ps, L=15.108 A, density=1.015, E_pot=-45.25 kJ/mol/water, 274 s
+# snapshot 05 at 24.0 ps, L=15.130 A, density=1.011, E_pot=-46.20 kJ/mol/water, 286 s
+# snapshot 06 at 28.0 ps, L=15.043 A, density=1.028, E_pot=-46.94 kJ/mol/water, 298 s
+# snapshot 07 at 32.0 ps, L=15.442 A, density=0.951, E_pot=-46.15 kJ/mol/water, 311 s
+# snapshot 08 at 36.0 ps, L=15.118 A, density=1.013, E_pot=-47.03 kJ/mol/water, 324 s
+# snapshot 09 at 40.0 ps, L=15.093 A, density=1.018, E_pot=-46.50 kJ/mol/water, 338 s
+# g_OO first peak at 2.78 A (height 3.06), n_OO(<3.3 A)=4.34
+# wrote 10 snapshots to /mnt/c/Users/HUAWEI/Desktop/hbond-stretch-eda/geometries/liquid

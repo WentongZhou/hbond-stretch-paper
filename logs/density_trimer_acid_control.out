@@ -1,0 +1,8 @@
+R=2.700  saddle at 0.576 Å from H_b: rho_final=0.04133 rho_0=0.03893 (94.2%)  dPauli=-0.00499 (-12.1%)  drelax=+0.00739 (+17.9%)  Total=-6.474
+R=2.800  saddle at 0.619 Å from H_b: rho_final=0.03217 rho_0=0.03056 (95.0%)  dPauli=-0.00346 (-10.8%)  drelax=+0.00507 (+15.8%)  Total=-6.925
+R=2.900  saddle at 0.665 Å from H_b: rho_final=0.02513 rho_0=0.02406 (95.7%)  dPauli=-0.00240 (-9.5%)  drelax=+0.00347 (+13.8%)  Total=-7.000
+R=3.000  saddle at 0.711 Å from H_b: rho_final=0.01974 rho_0=0.01904 (96.5%)  dPauli=-0.00166 (-8.4%)  drelax=+0.00236 (+12.0%)  Total=-6.840
+R=3.100  saddle at 0.757 Å from H_b: rho_final=0.01560 rho_0=0.01514 (97.1%)  dPauli=-0.00116 (-7.4%)  drelax=+0.00161 (+10.3%)  Total=-6.537
+R=3.200  saddle at 0.802 Å from H_b: rho_final=0.01240 rho_0=0.01210 (97.6%)  dPauli=-0.00081 (-6.5%)  drelax=+0.00111 (+9.0%)  Total=-6.154
+# wrote /mnt/c/Users/HUAWEI/Desktop/hbond-stretch-eda/results/density_trimer_acid_control_revpbe0-d3bj_tzvp.json
+# figures in /mnt/c/Users/HUAWEI/Desktop/hbond-stretch-eda/figures

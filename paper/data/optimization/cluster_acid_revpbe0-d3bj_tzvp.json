@@ -1,0 +1,126 @@
+{
+  "tag": "revpbe0-d3bj_tzvp",
+  "xc": "revpbe0",
+  "dispersion": "d3bj",
+  "basis": "def2-tzvp",
+  "grid_level": 4,
+  "xyz": "/mnt/c/Users/HUAWEI/Desktop/hbond-stretch-eda/geometries/cluster_acid_revpbe0-d3bj_tzvp.xyz",
+  "symbols": [
+    "O",
+    "H",
+    "H",
+    "H",
+    "O",
+    "H",
+    "H",
+    "O",
+    "H",
+    "H",
+    "O",
+    "H",
+    "H",
+    "O",
+    "H",
+    "H"
+  ],
+  "optimization": [
+    {
+      "basis": "def2-svp",
+      "energy_hartree": -382.0756578824191,
+      "bfgs_steps": 47,
+      "fmax_final_eV_A": 0.024132499256801512,
+      "wall_seconds": 1294.8839173316956
+    },
+    {
+      "basis": "def2-tzvp",
+      "energy_hartree": -382.551423833578,
+      "bfgs_steps": 239,
+      "fmax_final_eV_A": 0.004877205424436045,
+      "wall_seconds": 11474.589095592499
+    }
+  ],
+  "hbonds": [
+    {
+      "donor_O": 0,
+      "H": 1,
+      "acceptor_O": 4,
+      "R_OO": 2.4624205628994438,
+      "r_OH": 1.0548254828781094,
+      "angle_OHO": 175.80117189042156
+    },
+    {
+      "donor_O": 0,
+      "H": 2,
+      "acceptor_O": 7,
+      "R_OO": 2.5870177645211507,
+      "r_OH": 1.0028285320951413,
+      "angle_OHO": 176.0372643922232
+    },
+    {
+      "donor_O": 0,
+      "H": 3,
+      "acceptor_O": 10,
+      "R_OO": 2.582853150239941,
+      "r_OH": 1.0039188024228518,
+      "angle_OHO": 176.6359805583979
+    },
+    {
+      "donor_O": 4,
+      "H": 5,
+      "acceptor_O": 13,
+      "R_OO": 2.668437419769301,
+      "r_OH": 0.986722515163221,
+      "angle_OHO": 176.59444569667937
+    }
+  ],
+  "targets": {
+    "acid": {
+      "R_OO": 2.668437419769301,
+      "r_OH_bonded": 0.986722515163221,
+      "angle_OHO": 176.59444569667937
+    }
+  },
+  "system": "acid",
+  "charge": 1,
+  "description": "Eigen cation H3O+(H2O)3 with one second-shell water accepting from W1a",
+  "fragment_sets": {
+    "acid": {
+      "fragments": [
+        {
+          "label": "ion_shell",
+          "atoms": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "charge": 1
+        },
+        {
+          "label": "water2",
+          "atoms": [
+            13,
+            14,
+            15
+          ],
+          "charge": 0
+        }
+      ],
+      "moving": "water2",
+      "donor_O": 4,
+      "bonded_H": 5,
+      "acceptor_O": 13,
+      "ct_label": "water2",
+      "description": "W1a => W2, W1a accepts from H3O+ (acceptor of the target bond moves)"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+# base: 17 atoms, charge -1, guess written to /mnt/c/Users/HUAWEI/Desktop/hbond-stretch-eda/geometries/cluster_base_guess.xyz
+# initial H-bonds:
+#   O2-H4...O0  R=2.650  angle=180.0
+#   O5-H7...O0  R=2.650  angle=180.0
+#   O8-H10...O0  R=2.650  angle=180.0
+#   O11-H13...O0  R=2.650  angle=180.0
+#   O14-H16...O2  R=2.850  angle=180.0
+# minimum non-HH interatomic distance: 0.965 A
+# def2-svp: E=-457.48833833 Eh after 127 steps, fmax=0.0257 eV/A, 4851 s

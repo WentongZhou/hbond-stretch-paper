@@ -1,0 +1,122 @@
+[
+  {
+    "name": "liquid_05_0",
+    "cluster_json": "/mnt/c/Users/HUAWEI/Desktop/hbond-stretch-eda/results/liquid/cluster_liquid_05_0.json",
+    "R_OO": 2.6577362407255536,
+    "angle_OHO": 152.82991091322694,
+    "r_HA": 1.769970035878291,
+    "n_env_waters": 7,
+    "donor_nHB_donated": 2,
+    "donor_nHB_accepted": 2,
+    "acceptor_nHB_donated": 2,
+    "acceptor_nHB_accepted": 1
+  },
+  {
+    "name": "liquid_05_1",
+    "cluster_json": "/mnt/c/Users/HUAWEI/Desktop/hbond-stretch-eda/results/liquid/cluster_liquid_05_1.json",
+    "R_OO": 2.646308092551961,
+    "angle_OHO": 177.25132170962576,
+    "r_HA": 1.6898108877412876,
+    "n_env_waters": 7,
+    "donor_nHB_donated": 2,
+    "donor_nHB_accepted": 2,
+    "acceptor_nHB_donated": 2,
+    "acceptor_nHB_accepted": 2
+  },
+  {
+    "name": "liquid_06_0",
+    "cluster_json": "/mnt/c/Users/HUAWEI/Desktop/hbond-stretch-eda/results/liquid/cluster_liquid_06_0.json",
+    "R_OO": 2.927674575227582,
+    "angle_OHO": 164.24665612393107,
+    "r_HA": 1.9948703206662335,
+    "n_env_waters": 9,
+    "donor_nHB_donated": 2,
+    "donor_nHB_accepted": 2,
+    "acceptor_nHB_donated": 2,
+    "acceptor_nHB_accepted": 2
+  },
+  {
+    "name": "liquid_06_1",
+    "cluster_json": "/mnt/c/Users/HUAWEI/Desktop/hbond-stretch-eda/results/liquid/cluster_liquid_06_1.json",
+    "R_OO": 3.104708167517522,
+    "angle_OHO": 148.3195715337613,
+    "r_HA": 2.249172488389453,
+    "n_env_waters": 7,
+    "donor_nHB_donated": 2,
+    "donor_nHB_accepted": 1,
+    "acceptor_nHB_donated": 2,
+    "acceptor_nHB_accepted": 2
+  },
+  {
+    "name": "liquid_07_0",
+    "cluster_json": "/mnt/c/Users/HUAWEI/Desktop/hbond-stretch-eda/results/liquid/cluster_liquid_07_0.json",
+    "R_OO": 2.7304836581964747,
+    "angle_OHO": 159.08218632208101,
+    "r_HA": 1.814898628680126,
+    "n_env_waters": 6,
+    "donor_nHB_donated": 2,
+    "donor_nHB_accepted": 1,
+    "acceptor_nHB_donated": 2,
+    "acceptor_nHB_accepted": 1
+  },
+  {
+    "name": "liquid_07_1",
+    "cluster_json": "/mnt/c/Users/HUAWEI/Desktop/hbond-stretch-eda/results/liquid/cluster_liquid_07_1.json",
+    "R_OO": 2.940444894409518,
+    "angle_OHO": 150.88353213770895,
+    "r_HA": 2.067081377388417,
+    "n_env_waters": 6,
+    "donor_nHB_donated": 2,
+    "donor_nHB_accepted": 2,
+    "acceptor_nHB_donated": 2,
+    "acceptor_nHB_accepted": 2
+  },
+  {
+    "name": "liquid_08_0",
+    "cluster_json": "/mnt/c/Users/HUAWEI/Desktop/hbond-stretch-eda/results/liquid/cluster_liquid_08_0.json",
+    "R_OO": 2.649663062030531,
+    "angle_OHO": 163.87725161123484,
+    "r_HA": 1.7167446975266891,
+    "n_env_waters": 6,
+    "donor_nHB_donated": 2,
+    "donor_nHB_accepted": 2,
+    "acceptor_nHB_donated": 2,
+    "acceptor_nHB_accepted": 1
+  },
+  {
+    "name": "liquid_08_1",
+    "cluster_json": "/mnt/c/Users/HUAWEI/Desktop/hbond-stretch-eda/results/liquid/cluster_liquid_08_1.json",
+    "R_OO": 2.8451333483988064,
+    "angle_OHO": 147.39496766364323,
+    "r_HA": 1.9916404548145745,
+    "n_env_waters": 7,
+    "donor_nHB_donated": 2,
+    "donor_nHB_accepted": 2,
+    "acceptor_nHB_donated": 1,
+    "acceptor_nHB_accepted": 2
+  },
+  {
+    "name": "liquid_09_0",
+    "cluster_json": "/mnt/c/Users/HUAWEI/Desktop/hbond-stretch-eda/results/liquid/cluster_liquid_09_0.json",
+    "R_OO": 2.810758560963394,
+    "angle_OHO": 170.9212565178736,
+    "r_HA": 1.8614885988157448,
+    "n_env_waters": 6,
+    "donor_nHB_donated": 2,
+    "donor_nHB_accepted": 2,
+    "acceptor_nHB_donated": 2,
+    "acceptor_nHB_accepted": 2
+  },
+  {
+    "name": "liquid_09_1",
+    "cluster_json": "/mnt/c/Users/HUAWEI/Desktop/hbond-stretch-eda/results/liquid/cluster_liquid_09_1.json",
+    "R_OO": 2.665700104170197,
+    "angle_OHO": 164.66117843457943,
+    "r_HA": 1.7305438861123976,
+    "n_env_waters": 7,
+    "donor_nHB_donated": 2,
+    "donor_nHB_accepted": 2,
+    "acceptor_nHB_donated": 2,
+    "acceptor_nHB_accepted": 2
+  }
+]

@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/mnt/c/Users/HUAWEI/Desktop/hbond-stretch-eda/scripts/02_force_constants.py", line 213, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "/mnt/c/Users/HUAWEI/Desktop/hbond-stretch-eda/scripts/02_force_constants.py", line 77, in main
+    raise RuntimeError("no stationary point inside the window")
+RuntimeError: no stationary point inside the window

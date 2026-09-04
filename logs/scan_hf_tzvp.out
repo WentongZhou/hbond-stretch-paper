@@ -1,0 +1,28 @@
+# hf_tzvp: 26 points, 0 already done
+R= 2.600  Total=  -0.6616  Elec= -16.3386  ExRep=  22.2477  OrbRel=  -6.5707  CorrDisp=   0.0000  CT(Mull)=+0.0305  CT(IAO)=+0.0731  closure=7.7e-14  2.7s
+R= 2.700  Total=  -2.3780  Elec= -13.2985  ExRep=  15.5480  OrbRel=  -4.6274  CorrDisp=  -0.0000  CT(Mull)=+0.0235  CT(IAO)=+0.0597  closure=1.8e-12  2.9s
+R= 2.768  Total=  -3.1264  Elec= -11.6354  ExRep=  12.1661  OrbRel=  -3.6571  CorrDisp=   0.0000  CT(Mull)=+0.0201  CT(IAO)=+0.0519  closure=1.1e-12  1.9s
+R= 2.788  Total=  -3.2956  Elec= -11.2003  ExRep=  11.3201  OrbRel=  -3.4154  CorrDisp=   0.0000  CT(Mull)=+0.0193  CT(IAO)=+0.0498  closure=1.4e-12  2.4s
+R= 2.800  Total=  -3.3860  Elec= -10.9538  ExRep=  10.8486  OrbRel=  -3.2808  CorrDisp=   0.0000  CT(Mull)=+0.0189  CT(IAO)=+0.0486  closure=2.5e-13  2.2s
+R= 2.808  Total=  -3.4450  Elec= -10.7867  ExRep=  10.5323  OrbRel=  -3.1906  CorrDisp=  -0.0000  CT(Mull)=+0.0186  CT(IAO)=+0.0478  closure=-2.8e-13  2.1s
+R= 2.828  Total=  -3.5763  Elec= -10.3934  ExRep=   9.7987  OrbRel=  -2.9816  CorrDisp=  -0.0000  CT(Mull)=+0.0179  CT(IAO)=+0.0459  closure=3.7e-13  1.6s
+R= 2.848  Total=  -3.6908  Elec= -10.0191  ExRep=   9.1156  OrbRel=  -2.7872  CorrDisp=  -0.0000  CT(Mull)=+0.0172  CT(IAO)=+0.0440  closure=4.1e-13  2.9s
+R= 2.868  Total=  -3.7899  Elec=  -9.6630  ExRep=   8.4795  OrbRel=  -2.6064  CorrDisp=   0.0000  CT(Mull)=+0.0166  CT(IAO)=+0.0422  closure=4.1e-13  2.4s
+R= 2.888  Total=  -3.8747  Elec=  -9.3239  ExRep=   7.8873  OrbRel=  -2.4381  CorrDisp=  -0.0000  CT(Mull)=+0.0161  CT(IAO)=+0.0405  closure=1.7e-12  2.0s
+R= 2.900  Total=  -3.9186  Elec=  -9.1315  ExRep=   7.5573  OrbRel=  -2.3444  CorrDisp=   0.0000  CT(Mull)=+0.0158  CT(IAO)=+0.0395  closure=1.0e-12  2.4s
+R= 2.908  Total=  -3.9465  Elec=  -9.0009  ExRep=   7.3360  OrbRel=  -2.2815  CorrDisp=   0.0000  CT(Mull)=+0.0155  CT(IAO)=+0.0388  closure=3.0e-13  2.6s
+R= 2.928  Total=  -4.0062  Elec=  -8.6932  ExRep=   6.8228  OrbRel=  -2.1358  CorrDisp=  -0.0000  CT(Mull)=+0.0151  CT(IAO)=+0.0372  closure=3.0e-13  2.4s
+R= 2.948  Total=  -4.0549  Elec=  -8.3998  ExRep=   6.3451  OrbRel=  -2.0001  CorrDisp=   0.0000  CT(Mull)=+0.0146  CT(IAO)=+0.0357  closure=8.4e-14  2.5s
+R= 2.968  Total=  -4.0934  Elec=  -8.1200  ExRep=   5.9004  OrbRel=  -1.8738  CorrDisp=  -0.0000  CT(Mull)=+0.0142  CT(IAO)=+0.0342  closure=-5.2e-13  2.5s
+R= 2.988  Total=  -4.1226  Elec=  -7.8531  ExRep=   5.4866  OrbRel=  -1.7562  CorrDisp=   0.0000  CT(Mull)=+0.0138  CT(IAO)=+0.0328  closure=6.7e-13  2.5s
+R= 3.000  Total=  -4.1358  Elec=  -7.7013  ExRep=   5.2560  OrbRel=  -1.6906  CorrDisp=   0.0000  CT(Mull)=+0.0136  CT(IAO)=+0.0320  closure=1.1e-12  2.5s
+R= 3.008  Total=  -4.1433  Elec=  -7.5983  ExRep=   5.1015  OrbRel=  -1.6466  CorrDisp=   0.0000  CT(Mull)=+0.0135  CT(IAO)=+0.0315  closure=9.6e-13  2.0s
+R= 3.028  Total=  -4.1563  Elec=  -7.3549  ExRep=   4.7431  OrbRel=  -1.5444  CorrDisp=  -0.0000  CT(Mull)=+0.0131  CT(IAO)=+0.0302  closure=4.9e-13  2.1s
+R= 3.048  Total=  -4.1621  Elec=  -7.1225  ExRep=   4.4096  OrbRel=  -1.4492  CorrDisp=   0.0000  CT(Mull)=+0.0128  CT(IAO)=+0.0289  closure=9.3e-14  2.5s
+R= 3.068  Total=  -4.1614  Elec=  -6.9003  ExRep=   4.0994  OrbRel=  -1.3605  CorrDisp=  -0.0000  CT(Mull)=+0.0125  CT(IAO)=+0.0277  closure=3.9e-13  2.2s
+R= 3.088  Total=  -4.1548  Elec=  -6.6878  ExRep=   3.8108  OrbRel=  -1.2777  CorrDisp=  -0.0000  CT(Mull)=+0.0122  CT(IAO)=+0.0266  closure=2.6e-14  2.5s
+R= 3.100  Total=  -4.1483  Elec=  -6.5668  ExRep=   3.6500  OrbRel=  -1.2315  CorrDisp=   0.0000  CT(Mull)=+0.0120  CT(IAO)=+0.0259  closure=-4.3e-13  2.0s
+R= 3.200  Total=  -4.0321  Elec=  -5.6566  ExRep=   2.5315  OrbRel=  -0.9069  CorrDisp=   0.0000  CT(Mull)=+0.0107  CT(IAO)=+0.0210  closure=8.1e-13  2.7s
+R= 3.300  Total=  -3.8390  Elec=  -4.9175  ExRep=   1.7539  OrbRel=  -0.6754  CorrDisp=   0.0000  CT(Mull)=+0.0095  CT(IAO)=+0.0169  closure=-4.7e-13  1.9s
+R= 3.400  Total=  -3.6045  Elec=  -4.3102  ExRep=   1.2142  OrbRel=  -0.5085  CorrDisp=   0.0000  CT(Mull)=+0.0083  CT(IAO)=+0.0136  closure=-1.4e-12  2.3s
+# wrote /mnt/c/Users/HUAWEI/Desktop/hbond-stretch-eda/results/scan_hf_tzvp.json

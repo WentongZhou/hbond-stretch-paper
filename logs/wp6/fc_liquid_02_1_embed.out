@@ -1,0 +1,21 @@
+# Force-constant partition: liquid_02_1_embed
+
+R_min = 2.9705 Å, E_int = -4.790 kcal/mol, k_total = 18.091 kcal/mol/Å² = 12.57 N/m, ω(H2O) = 153.9 cm⁻¹, ω(D2O) = 146.0 cm⁻¹ (mass effect only)
+
+| component | X(R_min) kcal/mol | dX/dR kcal/mol/Å | k_X kcal/mol/Å² | k_X / k_total | cubic kcal/mol/Å³ |
+|---|---:|---:|---:|---:|---:|
+| Total | -4.790 | 0.000 | 18.091 | +1.000 | -82.80 |
+| Elec | -6.817 | 10.540 | -23.339 | -1.290 | 70.42 |
+| Exch | -6.970 | 22.114 | -69.494 | -3.841 | 221.96 |
+| Rep | 11.942 | -40.005 | 133.537 | +7.381 | -454.49 |
+| ExRep | 4.972 | -17.891 | 64.042 | +3.540 | -232.53 |
+| OrbRel | -1.828 | 5.352 | -18.199 | -1.006 | 66.71 |
+| Corr | -0.391 | 1.343 | -4.215 | -0.233 | 13.30 |
+| Disp | -0.726 | 0.656 | -0.198 | -0.011 | -0.70 |
+| CorrDisp | -1.117 | 1.999 | -4.414 | -0.244 | 12.60 |
+| Steric | 3.855 | -15.892 | 59.629 | +3.296 | -219.93 |
+
+Sum of primary slopes at R_min (should be ~0): 0.0000 kcal/mol/Å
+Sum of primary k minus k_total (closure): 5.08e-08 kcal/mol/Å²
+Electrons lost by fragment 'acceptor_water' (acceptor of the target bond) at R_min: Mulliken {'value_e': 0.018216253389729535, 'slope_e_per_A': -0.01787176510442135}, IAO {'value_e': 0.03796141943578336, 'slope_e_per_A': -0.07168263675049082}
+Max |closure| over scan: 1.95e-12 Eh

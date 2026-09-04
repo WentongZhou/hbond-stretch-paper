@@ -1,0 +1,103 @@
+{
+  "tag": "pbe0-d3bj_tzvp",
+  "xc": "pbe0",
+  "dispersion": "d3bj",
+  "basis": "def2-tzvp",
+  "oh_elongation_angstrom": 0.0,
+  "n_points": 26,
+  "fit_window_halfwidth_A": 0.16,
+  "fit_degree": 4,
+  "points_in_window": 19,
+  "R_min_A": 2.913410832331978,
+  "E_int_min_kcal": -5.733032787078948,
+  "k_total_kcal_per_A2": 23.246846598844503,
+  "k_total_N_per_m": 16.151201050564374,
+  "k_sum_primary_minus_total": -1.9239653425984216e-08,
+  "force_balance_sum_of_slopes": -8.674875262570936e-10,
+  "omega_H2O_cm-1": 174.4731591141018,
+  "omega_D2O_cm-1": 165.47273081546186,
+  "omega_ratio_D2O_over_H2O_classical": 0.9484136795347767,
+  "charge_transfer_acceptor": {
+    "mulliken": {
+      "value_e": 0.027816370971279977,
+      "slope_e_per_A": -0.03620092286967223
+    },
+    "iao": {
+      "value_e": 0.050495845510880766,
+      "slope_e_per_A": -0.09449607167676112
+    }
+  },
+  "max_abs_closure_hartree": 1.6801473406991008e-12,
+  "components": {
+    "Total": {
+      "value_kcal": -5.733032787078948,
+      "slope_kcal_per_A": -5.953570969552402e-15,
+      "k_kcal_per_A2": 23.246846598844503,
+      "cubic_kcal_per_A3": -112.15616955234826,
+      "fraction_of_k": 1.0
+    },
+    "Elec": {
+      "value_kcal": -8.900701489254221,
+      "slope_kcal_per_A": 15.78037424747924,
+      "k_kcal_per_A2": -38.052691306239836,
+      "cubic_kcal_per_A3": 110.45479679142522,
+      "fraction_of_k": -1.6368969074769593
+    },
+    "Exch": {
+      "value_kcal": -10.342099621394611,
+      "slope_kcal_per_A": 32.421100714322755,
+      "k_kcal_per_A2": -100.69005170374513,
+      "cubic_kcal_per_A3": 312.541991423393,
+      "fraction_of_k": -4.331342372636037
+    },
+    "Rep": {
+      "value_kcal": 18.215878523089803,
+      "slope_kcal_per_A": -60.38892725050073,
+      "k_kcal_per_A2": 198.8171459533948,
+      "cubic_kcal_per_A3": -658.1620832682381,
+      "fraction_of_k": 8.55243506288191
+    },
+    "ExRep": {
+      "value_kcal": 7.873778901695193,
+      "slope_kcal_per_A": -27.96782653617799,
+      "k_kcal_per_A2": 98.1270942496495,
+      "cubic_kcal_per_A3": -345.620091844835,
+      "fraction_of_k": 4.221092690245866
+    },
+    "OrbRel": {
+      "value_kcal": -2.4764469512239056,
+      "slope_kcal_per_A": 8.449206233103894,
+      "k_kcal_per_A2": -30.241068797246854,
+      "cubic_kcal_per_A3": 109.77260144343042,
+      "fraction_of_k": -1.30086756793715
+    },
+    "Corr": {
+      "value_kcal": -1.872270554974929,
+      "slope_kcal_per_A": 3.5529855040821117,
+      "k_kcal_per_A2": -6.647794257400473,
+      "cubic_kcal_per_A3": 13.42749024042618,
+      "fraction_of_k": -0.28596542026181326
+    },
+    "Disp": {
+      "value_kcal": -0.3573926933047651,
+      "slope_kcal_per_A": 0.18526055064523994,
+      "k_kcal_per_A2": 0.061306690842339265,
+      "cubic_kcal_per_A3": -0.19096584355442903,
+      "fraction_of_k": 0.002637204602424939
+    },
+    "CorrDisp": {
+      "value_kcal": -2.229663248279695,
+      "slope_kcal_per_A": 3.738246054727348,
+      "k_kcal_per_A2": -6.586487566558076,
+      "cubic_kcal_per_A3": 13.236524396874835,
+      "fraction_of_k": -0.2833282156593859
+    },
+    "Steric": {
+      "value_kcal": 5.644115653415497,
+      "slope_kcal_per_A": -24.22958048145064,
+      "k_kcal_per_A2": 91.54060668309153,
+      "cubic_kcal_per_A3": -332.3835674479625,
+      "fraction_of_k": 3.9377644745864844
+    }
+  }
+}

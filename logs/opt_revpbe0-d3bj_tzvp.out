@@ -1,0 +1,25 @@
+{
+  "tag": "revpbe0-d3bj_tzvp",
+  "xc": "revpbe0",
+  "dispersion": "d3bj",
+  "basis": "def2-tzvp",
+  "grid_level": 4,
+  "energy_hartree": -152.85610417513072,
+  "R_OO_angstrom": 2.928196146247242,
+  "r_OH_bonded_angstrom": 0.9670914671809088,
+  "r_OH_free_angstrom": 0.9588148951804144,
+  "r_OH_acceptor_angstrom": [
+    0.9606104842208585,
+    0.960610484223046
+  ],
+  "angle_OHO_deg": 172.6487439742355,
+  "bfgs_steps": 33,
+  "fmax_eV_per_angstrom": 0.003,
+  "wall_seconds": 114.71236944198608,
+  "gradient_check": {
+    "analytic_dE_dR_Eh_per_angstrom": -3.366269066991765e-06,
+    "finite_difference_dE_dR_Eh_per_angstrom": -4.184147428532015e-06
+  },
+  "xyz": "/mnt/c/Users/HUAWEI/Desktop/hbond-stretch-eda/geometries/dimer_revpbe0-d3bj_tzvp.xyz"
+}
+exit=0
